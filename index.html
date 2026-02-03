@@ -1,141 +1,194 @@
 <!DOCTYPE html>
-<head>
-    <style>
-        a:link {
-            color: #6D2542;
-            text-decoration: none;
-        }
-        a:visited {
-            color: #999999;
-            text-decoration: none;
-        }
-        a:hover {
-            color: #999999;
-            text-decoration: underline;
-        }
-        a:active {
-            color: #999999;
-            text-decoration: none;
-        }
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+        <title>Eric Macaulay - Portfolio</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#home" class="logo">Eric Macaulay</a>
 
-        body {
-            margin: 0 0 0 0;
-            padding: 0 0 0 0;
-        }
+            <i class="bx bx-menu" id="menu-icon"></i>
 
-        .page-wrapper {
-            width: 630px;
-            margin: auto;
-            padding: 0 0 100px 0;
-            background-image:url(rounded.jpg);
-            background-repeat: no-repeat;
-            background-position: bottom;
-            border: 0px dtted #999999;
-            position: relative;
-        }
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#testimonial">Testimonial</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
 
-        header {
-            background: transparent no-repeat center top;
-            border: 0px dotted #999999;
-            width: 630px;
-            /* height: 387px; */
-        }
+        
 
-        .intro {
-            width: 400px;
-            margin: 0 0 0 0;
-            border: 0px dotted #999999;
-        }
+        <!-- Home Section Code -->
 
-        .summary p:last-child {
-            border : 0px solid #000000;
-            margin: -110px 0 95px 288px;
-            padding: 0 0 0 15px;
-            text-transform: uppercase;
-            width: 290px;
-            font-family: Geneva, Arial, Helvetica, sans-serif;
-            font-size: 10px;
-            font-weight: normal;
-            color: #999999;
-            background: transparent url(bullet.jpg) no-repeat 0% 28%;
-        }
+        <section class="home" id="home">
+            <div class="home-img">
+               <!-- <img src="assets/Profile.jpeg" alt="Profile Image"> -->
+                <img src="assets/oie_me.jpg" alt="">
+            </div>
 
-        .preamble {
-            border-bottom: 0px dotted #999999;
-            position: relative;
-            width: 350px;
-            margin: 0 0 0 60px;
-        }
-
-        .preamble h3 {
-            background-repeat: no-repeat;
-            background-position: left top;
-            width: 286px;
-            /* height: 64px; */
-            margin-bottom: -5px;
-        }
-
-        p {
-            color: #999999;
-            font-size: 12px;
-            font-weight: normal;
-            line-height: 1.4em;
-            font-family: Geneva, Arial, Helvetica, sans-serif;
-        }
-
-        footer {
-           text-align: left; 
-           padding: 0 0 0 0;
-           margin: 0 0 0 60px;
-        }
-
-        footer p {
-            padding: 5px;
-            border: 1px solid #eeeeee;
-            background-color: #fff;
-            color: #666666;
-            font-family: Geneva, Arial, Helvetica, sans-serif;
-            font-size: 10px;
-        }
-
-    </style>
-</head>
-<body>
-
-    <div class="page-wrapper">
-        <section class="intro">
-            <header role="banner">
-                <h1>EVENT 2025</h1>
-                <h2>Product and service launching soon</h2>
-            </header>
-
-            <div class="preamble">
-                <h3>Join us!</h3>
-                <p>
-                    Come and join us on our first corporate event as we launch.
-                    <br>
-                    Our first line of new products and services.
-                    <br>
-                    All attendees will receive discount coupons and giveaways.
-                    <br>
-                    Unlimited food and drinks will be served too.
+            <div class="home-content">
+                <h3>Hello</h3>
+                <h1>Eric Macaulay</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ut laudantium voluptatum fugit error q 
+                    saepe architecto officiis quas minus! Explicabo facilis libero repellant dicta!
                 </p>
-                <p>
-                    Friday, November 20, 2025
-                    <br>
-                    8.00 AM - 6.00 PM
-                </p>
+
+                <div class="social-media">
+                    <!-- <a href="#"><i class='bxl  bx-linkedin'></i></a> -->
+                    <a href="#"><img src="img/linkedin.svg" alt=""/></a>
+                    <a href="#"><img src="img/github.svg" alt=""/></a>
+                    <a href="#"><img src="img/facebook.svg" alt=""/></a>
+                    <a href="#"><img src="img/instagram.svg" alt=""/></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
             </div>
         </section>
+
+        <!-- About section -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>I'm a <span>Frontend Developer</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illo voluptate molestiae animi ad ipsam asperiores ratione et dicta nulla praesentium, deserunt alias amet quas velit autem porro architecto. Voluptas.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="about-img">
+               <!-- <img src="assets/about.jpeg" alt="About Image"> -->
+                <img src="assets/eem.png">
+            </div>
+        </section> 
+
+        <!-- Services section -->
+        <section class="services" id="services">
+            <h2 class="heading">My <span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="bx bx-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam inventore quis, vitae commodi nam eum illum sunt distinctio cupiditate nihil magni veritatis, soluta id amet maiores expedita dicta voluptatem animi!
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class="bx bx-palette"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam inventore quis, vitae commodi nam eum illum sunt distinctio cupiditate nihil magni veritatis, soluta id amet maiores expedita dicta voluptatem animi!
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <!-- <i class="bxl bx-android"></i> -->
+                     <i class='bx  bx-sitemap'></i> 
+                    <h3>App Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam inventore quis, vitae commodi nam eum illum sunt distinctio cupiditate nihil magni veritatis, soluta id amet maiores expedita dicta voluptatem animi!
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section> 
+
+        <!-- Testimonia section -->
+
+        <section class="testimonial" id="testimonial">
+
+            <div class="testimonial-box">
+                <h2 class="heading">Testimonials</h2>
+
+                <div class="wrapper">
+                    <div class="testimonial-item">
+                        <img src="assets/01.jpeg" alt="">
+
+                        <h2>Marilyn</h2>
+                        <div class="rating">
+                            <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda architecto autem consequatur nostrum deleniti enim optio officiis necessitatibus aliquam similique corporis illum laboriosam nisi, dolore reprehenderit quod numquam provident!
+                        </p>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <img src="assets/02.jpeg" alt="">
+
+                        <h2>Julia</h2>
+                        <div class="rating">
+                            <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda architecto autem consequatur nostrum deleniti enim optio officiis necessitatibus aliquam similique corporis illum laboriosam nisi, dolore reprehenderit quod numquam provident!
+                        </p>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <img src="assets/03.jpeg" alt="">
+
+                        <h2>Aleksa</h2>
+                        <div class="rating">
+                            <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda architecto autem consequatur nostrum deleniti enim optio officiis necessitatibus aliquam similique corporis illum laboriosam nisi, dolore reprehenderit quod numquam provident!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
         
-  
-        <footer>
-            <p>
-                Queen Street, Brisbane City, QLD, 4000
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" name="Email" placeholder="Email Address">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <!-- Footer section -->
+        
+        <footer class="footer">
+            <div class="social">
+                <a href="#"><img src="img/linkedin.svg" alt=""/></a>
+                <a href="#"><img src="img/github.svg" alt=""/></a>
+                <a href="#"><img src="img/facebook.svg" alt=""/></a>
+                <a href="#"><img src="img/instagram.svg" alt=""/></a>
+            </div>
+            <p class="copyright">
+                &copy; Monica Taylor - All Rights Reserved
             </p>
         </footer>
-
-   
-    </div>
-</body>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
